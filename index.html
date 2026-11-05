@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Linea – Arcade game for Android</title>
+<meta name="description" content="Linea is a fast neon arcade game: dodge and shoot cubes across 5 lanes. Free on Google Play.">
+<style>
+  :root { --bg:#0d0d26; --fg:#ffffff; --muted:#a9b2d6; --cyan:#4dd0ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+         min-height:100vh; display:flex; flex-direction:column; align-items:center; text-align:center; padding:0 16px; }
+  nav { width:100%; max-width:720px; display:flex; justify-content:flex-end; gap:20px; padding:20px 0; font-size:14px; }
+  a { color:var(--cyan); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  main { flex:1; width:100%; max-width:720px; padding:40px 0; }
+  h1 { font-size:clamp(48px,14vw,96px); letter-spacing:.12em; margin:0 0 8px; font-weight:800;
+       background:linear-gradient(90deg,#00ffff,#8080ff,#c040ff,#ff20c0); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  .tag { color:var(--muted); font-size:18px; margin:4px 0; }
+  .btn { display:inline-block; margin:32px 0; padding:16px 32px; border:2px solid var(--cyan); border-radius:12px;
+         background:rgba(13,13,40,.85); color:#fff; font-weight:700; letter-spacing:.06em; box-shadow:0 0 14px rgba(77,208,255,.45); }
+  .btn:hover { text-decoration:none; box-shadow:0 0 24px rgba(77,208,255,.8); }
+  ul { list-style:none; padding:0; margin:24px 0 0; display:grid; gap:12px; }
+  li { padding:14px 16px; border:1px solid rgba(77,208,255,.3); border-radius:10px; background:rgba(255,255,255,.03); }
+  footer { padding:24px 0; color:var(--muted); font-size:13px; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="https://sites.google.com/view/soochie14linea">Privacy Policy</a>
+  <a href="mailto:TON_EMAIL">Contact</a>
+</nav>
+<main>
+  <h1>LINEA</h1>
+  <p class="tag">Dodge. Shoot. Survive. A neon arcade game in 5 lanes.</p>
+  <p class="tag">Esquive. Tire. Survis. Un jeu d'arcade néon sur 5 lignes.</p>
+  <a class="btn" href="https://play.google.com/store/apps/details?id=com.soochie14.linea">GET IT ON GOOGLE PLAY</a>
+  <ul>
+    <li>5 lanes, simple swipe &amp; tap controls</li>
+    <li>8 enemy types with unique behaviors</li>
+    <li>Endless, progressively harder runs</li>
+    <li>Neon visuals and electronic soundtrack</li>
+  </ul>
+</main>
+<footer>© 2026 Soochie14</footer>
+</body>
+</html>
